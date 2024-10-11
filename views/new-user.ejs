@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/new.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/add-new-user" class="user-form" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" placeholder="Fname" required>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" placeholder="Lname" required>
+
+            <label for="favcolor">Select your favorite color:</label>
+           <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+</body>
+</html>

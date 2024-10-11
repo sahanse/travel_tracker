@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.top{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.users{
+    display: flex;
+    gap: 20px;
+}
+
+.user-ul{
+    display: flex;
+    gap:2px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+
+li:hover{
+    background-color: orange;
+}
+
+.ag-canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+.ag-canvas_svg{
+    height: 770px;
+
+}
+
+.add-user-btn{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country-in{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.add-country-btn{
+    height: 40px;
+    padding-inline: 5px;
+    margin-left: 10px;
+}
+
+.bottom-top{
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.user-result{
+    margin-bottom: 20px;
+}
+
+small{
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+.add-cont-text{
+    margin-bottom: 10px;
+}
+
+.Go-Home{
+    color: black;
+    background-color: aqua;
+}
+
+.notify-add{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.ag-canvas{
+    fill: rgb(213, 209, 209);
+}
+
